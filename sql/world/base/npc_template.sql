@@ -19,3 +19,9 @@ DELETE FROM `creature_template_locale` WHERE `entry`=@Entry AND `locale` IN ('es
 INSERT INTO `creature_template_locale` (`entry`, `locale`, `Name`, `Title`, `VerifiedBuild`) VALUES
 (@Entry, 'esES', @Name, 'Reinicio de instancias', 0),
 (@Entry, 'esMX', @Name, 'Reinicio de instancias', 0);
+(@Entry, 'frFR', @Name, 'Redémarrage des instances', 0);
+(@Entry, 'koKR', @Name, '인스턴스 재시작', 0);
+(@Entry, 'deDE', @Name, 'Neustart der Instanz', 0);
+(@Entry, 'zhCN', @Name, '重新启动实例', 0);
+(@Entry, 'zhTW', @Name, '實例重啟', 0);
+(@Entry, 'ruRU', @Name, 'Перезапуск экземпляра', 0);
